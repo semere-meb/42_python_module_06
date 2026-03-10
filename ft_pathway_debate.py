@@ -1,13 +1,9 @@
 #! /usr/bin/env python3
 
 
-from alchemy.transmutation import (
-    lead_to_gold,
-    stone_to_gem,
-    philosophers_stone,
-    elixer_of_life,
-)
 import alchemy
+from alchemy.transmutation.basic import lead_to_gold, stone_to_gem
+from .alchemy.transmutation.advanced import philosophers_stone, elixer_of_life
 
 
 def main() -> None:

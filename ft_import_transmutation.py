@@ -1,9 +1,11 @@
 #! /usr/bin/env python3
 
-import alchemy
+
+import alchemy.elements
 from alchemy import create_water
 from alchemy.potions import healing_potion as heal
-from alchemy import strength_potion, create_earth, create_fire
+from alchemy.elements import create_earth, create_fire
+from alchemy.potions import strength_potion
 
 
 def main() -> None:
@@ -22,6 +24,8 @@ def main() -> None:
     print(f"create_earth(): {create_earth()}")
     print(f"create_fire(): {create_fire()}")
     print(f"strength_potion(): {strength_potion()}")
+
+    print("\nAll import transmutation methods mastered!")
 
 
 if __name__ == "__main__":
