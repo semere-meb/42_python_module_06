@@ -3,7 +3,7 @@
 
 import alchemy
 from alchemy.transmutation.basic import lead_to_gold, stone_to_gem
-from .alchemy.transmutation.advanced import philosophers_stone, elixer_of_life
+from alchemy.transmutation.advanced import philosophers_stone, elixer_of_life
 
 
 def main() -> None:
